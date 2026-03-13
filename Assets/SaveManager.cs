@@ -24,6 +24,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     void Update()
     {
         timer += Time.deltaTime;
@@ -35,6 +36,7 @@ public class SaveManager : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     public void SaveGame(int slot)
     {
         SaveData data = new SaveData();
@@ -65,6 +67,7 @@ public class SaveManager : MonoBehaviour
         Debug.Log("Saved Slot " + slot);
     }
 
+    [System.Obsolete]
     public void LoadGame(int slot)
     {
         if (!File.Exists(SavePath(slot))) return;
@@ -77,6 +80,7 @@ public class SaveManager : MonoBehaviour
         StartCoroutine(LoadRoutine(data));
     }
 
+    [System.Obsolete]
     IEnumerator LoadRoutine(SaveData data)
     {
         yield return SceneManager.LoadSceneAsync(data.sceneName);
