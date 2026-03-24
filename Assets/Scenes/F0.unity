@@ -3669,6 +3669,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3422122416097304029, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
   m_PrefabInstance: {fileID: 1302253837706011826}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &642281242
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642281226}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05209dad20414d347a79ebb813b1c4dc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &828097354
 GameObject:
   m_ObjectHideFlags: 0
@@ -15194,6 +15216,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6984699201159037987, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984699201159037987, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984699201159037987, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984699201159037987, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984699201159037987, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15201,6 +15243,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4486284652091192022, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 642281232}
+    - targetCorrespondingSourceObject: {fileID: 4486284652091192022, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 642281242}
   m_SourcePrefab: {fileID: 100100000, guid: 3c5f9f56e2aed6d47893afa311b0a33a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
