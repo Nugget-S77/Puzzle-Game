@@ -148,12 +148,12 @@ TextureImporter:
       name: IMG_4393_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 944
-        width: 375
-        height: 650
+        x: 51
+        y: 1589
+        width: 27
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: IMG_4393_1
       rect:
         serializedVersion: 2
-        x: 478
+        x: 43
         y: 945
-        width: 342
+        width: 373
         height: 634
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -192,12 +192,12 @@ TextureImporter:
       name: IMG_4393_2
       rect:
         serializedVersion: 2
-        x: 873
-        y: 1309
-        width: 310
-        height: 202
+        x: 479
+        y: 945
+        width: 341
+        height: 632
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: IMG_4393_3
       rect:
         serializedVersion: 2
-        x: 1415
-        y: 986
-        width: 308
-        height: 558
+        x: 874
+        y: 1309
+        width: 309
+        height: 201
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: IMG_4393_4
       rect:
         serializedVersion: 2
-        x: 1900
-        y: 823
-        width: 209
-        height: 751
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1415
+        y: 986
+        width: 307
+        height: 558
+      alignment: 9
+      pivot: {x: 0.52521807, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: IMG_4393_5
       rect:
         serializedVersion: 2
-        x: 815
-        y: 577
-        width: 606
-        height: 449
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1900
+        y: 889
+        width: 148
+        height: 680
+      alignment: 9
+      pivot: {x: 0.46076676, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: IMG_4393_6
       rect:
         serializedVersion: 2
-        x: 888
-        y: 974
-        width: 275
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 816
+        y: 577
+        width: 616
+        height: 338
+      alignment: 9
+      pivot: {x: 0.49057382, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: IMG_4393_7
       rect:
         serializedVersion: 2
-        x: 41
-        y: 294
-        width: 351
-        height: 545
+        x: 889
+        y: 974
+        width: 274
+        height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: IMG_4393_8
       rect:
         serializedVersion: 2
-        x: 421
-        y: 294
-        width: 351
-        height: 545
+        x: 43
+        y: 295
+        width: 349
+        height: 544
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: IMG_4393_9
       rect:
         serializedVersion: 2
-        x: 1622
-        y: 531
-        width: 353
-        height: 248
+        x: 422
+        y: 295
+        width: 349
+        height: 544
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: IMG_4393_10
       rect:
         serializedVersion: 2
-        x: 1175
-        y: 299
+        x: 1622
+        y: 533
         width: 353
-        height: 216
+        height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: IMG_4393_11
       rect:
         serializedVersion: 2
-        x: 1822
-        y: 155
-        width: 179
-        height: 274
+        x: 1175
+        y: 301
+        width: 353
+        height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: IMG_4393_12
       rect:
         serializedVersion: 2
-        x: 52
-        y: 73
-        width: 355
-        height: 169
+        x: 1823
+        y: 155
+        width: 178
+        height: 274
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: IMG_4393_13
       rect:
         serializedVersion: 2
-        x: 505
-        y: 62
-        width: 279
-        height: 155
+        x: 52
+        y: 73
+        width: 355
+        height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: IMG_4393_14
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 51
-        width: 174
-        height: 124
+        x: 505
+        y: 62
+        width: 278
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,12 +478,12 @@ TextureImporter:
       name: IMG_4393_15
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 53
+        x: 1191
+        y: 51
         width: 174
-        height: 122
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -496,11 +496,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: IMG_4393_16
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 53
+        width: 173
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdfb3b7ce791be4f9cb8b9d9005999d
+      internalID: -1996499799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 691db933055693a4ead13dd5083e8ef7
     internalID: 0
     vertices: []
     indices: 
@@ -508,7 +530,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       IMG_4393_0: -1391923431092765258
       IMG_4393_1: 558770423533716364
@@ -518,6 +542,7 @@ TextureImporter:
       IMG_4393_13: 2228311925034042437
       IMG_4393_14: 3184859058225124662
       IMG_4393_15: -3762987797199911289
+      IMG_4393_16: -1996499799
       IMG_4393_2: -3636773594262605102
       IMG_4393_3: -6191523142603176316
       IMG_4393_4: -6608643333922627062
