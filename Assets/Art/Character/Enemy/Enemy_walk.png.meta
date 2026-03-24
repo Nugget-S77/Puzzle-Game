@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: ecf443239cfa6114ba6de482d9d7fb50
+guid: 568596ed8ededfc468a951e40c59f549
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 700001233585562479
-    second: walkSheet_0
+      213: -9184412343640288376
+    second: Enemy_walk_0
   - first:
-      213: -2071846255772570929
-    second: walkSheet_1
+      213: 1465066600452448563
+    second: Enemy_walk_1
   - first:
-      213: -2756659289290445179
-    second: walkSheet_2
+      213: 6312107047933280270
+    second: Enemy_walk_2
   - first:
-      213: -6560862742991661996
-    second: walkSheet_3
+      213: -3915586795224834134
+    second: Enemy_walk_3
   - first:
-      213: 7974639078863570168
-    second: walkSheet_4
-  - first:
-      213: 7643478348070985137
-    second: walkSheet_5
+      213: 2521026885700415782
+    second: Enemy_walk_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +60,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 700
@@ -115,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walkSheet_0
+      name: Enemy_walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f63e336c967e6b900800000000000000
-      internalID: 700001233585562479
+      spriteID: 8839b9272a96a8080800000000000000
+      internalID: -9184412343640288376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkSheet_1
+      name: Enemy_walk_1
       rect:
         serializedVersion: 2
         x: 1200
@@ -152,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcae377bec25f33e0800000000000000
-      internalID: -2071846255772570929
+      spriteID: 331e1449f46f45410800000000000000
+      internalID: 1465066600452448563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkSheet_2
+      name: Enemy_walk_2
       rect:
         serializedVersion: 2
         x: 2400
@@ -174,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58eef075bf06eb9d0800000000000000
-      internalID: -2756659289290445179
+      spriteID: e008d48caeb199750800000000000000
+      internalID: 6312107047933280270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkSheet_3
+      name: Enemy_walk_3
       rect:
         serializedVersion: 2
         x: 3600
@@ -196,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45413ef981223f4a0800000000000000
-      internalID: -6560862742991661996
+      spriteID: aafd96f2e8a09a9c0800000000000000
+      internalID: -3915586795224834134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walkSheet_4
+      name: Enemy_walk_4
       rect:
         serializedVersion: 2
         x: 4800
@@ -218,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f48c93adfb9bae60800000000000000
-      internalID: 7974639078863570168
+      spriteID: 621f167789c7cf220800000000000000
+      internalID: 2521026885700415782
       vertices: []
       indices: 
       edges: []
@@ -228,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: feba2bb8ad1b2bd4d9b14ac1472676a7
+    spriteID: db48ef913497e934ab02f5f9cb6b3a06
     internalID: 0
     vertices: []
     indices: 
@@ -240,11 +237,11 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1200.0,"y":1500.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      walkSheet_0: 700001233585562479
-      walkSheet_1: -2071846255772570929
-      walkSheet_2: -2756659289290445179
-      walkSheet_3: -6560862742991661996
-      walkSheet_4: 7974639078863570168
+      Enemy_walk_0: -9184412343640288376
+      Enemy_walk_1: 1465066600452448563
+      Enemy_walk_2: 6312107047933280270
+      Enemy_walk_3: -3915586795224834134
+      Enemy_walk_4: 2521026885700415782
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
