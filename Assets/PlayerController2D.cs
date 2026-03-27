@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerController2D : MonoBehaviour
 {
     [SerializeField] private Animator animator;
 
@@ -23,13 +23,22 @@ public class Player : MonoBehaviour
         if (!canMove)
         {
             moveInput = 0;
+            // เพิ่มบรรทัดนี้: ถ้าเดินไม่ได้ ให้กลับไปท่า Idle ทันที
+            animator.SetBool("is runing", false);
             return;
         }
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
         if (moveInput != 0)
+        {
             sprite.flipX = moveInput < 0;
+            animator.SetBool("is runing", true); // เล่นท่าเดินเมื่อมีการกดปุ่ม
+        }
+        else
+        {
+            animator.SetBool("is runing", false); // กลับไปท่า Idle เมื่อไม่ได้กดปุ่ม
+        }
     }
 
     void FixedUpdate()
@@ -44,14 +53,5 @@ public class Player : MonoBehaviour
 
         if (!state)
             rb.velocity = Vector2.zero;
-
-        if (moveInput != 0)
-        {
-            animator.SetBool("is runing", true);
-        }
-        else
-        {
-            animator.SetBool("is runing", false);
-        }
     }
 }
