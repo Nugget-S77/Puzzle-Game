@@ -6,17 +6,20 @@ public class AISpawner : MonoBehaviour
     public GameObject aiPrefab;
     public Transform leftSpawnPoint;
     public Transform rightSpawnPoint;
+    public AISpawner spawner;
+    public float cooldown = 7f;
 
     private bool hasSpawned = false;
 
     void Start()
     {
+        StartCoroutine(SpawnLoop());
         StartCoroutine(SpawnRandomTime());
     }
 
     IEnumerator SpawnRandomTime()
     {
-        float randomTime = Random.Range(10f, 20f);
+        float randomTime = Random.Range(3f, 5f);
         yield return new WaitForSeconds(randomTime);
 
         if (!hasSpawned)
@@ -41,5 +44,18 @@ public class AISpawner : MonoBehaviour
             ai.GetComponent<RunnerAI>().MoveDirection(Vector3.left);
         }
         Debug.Log("AI Spawned at " + (spawnLeft ? "Left" : "Right") + " side.");
+    }
+    IEnumerator SpawnLoop()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(cooldown);
+
+            if (spawner != null)
+            {
+                spawner.SpawnAI();
+                Debug.Log("เกิดแล้ว");
+            }
+        }
     }
 }
