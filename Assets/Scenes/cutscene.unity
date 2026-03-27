@@ -292,6 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b2075f637def478e6f7b70ddd1645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  videoPlayer: {fileID: 1810562850}
+  nextSceneName: F0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
