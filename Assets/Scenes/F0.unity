@@ -26147,8 +26147,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7183649557558718392, guid: 7004a89145d549d4db0e8bc46b188629, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2068223059203863115}
   m_SourcePrefab: {fileID: 100100000, guid: 7004a89145d549d4db0e8bc46b188629, type: 3}
+--- !u!1 &2068223059203863114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7183649557558718392, guid: 7004a89145d549d4db0e8bc46b188629, type: 3}
+  m_PrefabInstance: {fileID: 2068223059203863113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2068223059203863115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068223059203863114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a136637bf33f84aae8fed7525aaaa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpScareInteract
+  jumpImage: {fileID: 1781465014}
+  showTime: 1
 --- !u!1001 &2685555886803560226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26330,8 +26352,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3463260876823686651, guid: 2f5398c90a643d04aba2ec733cd6025e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3587071413765782284}
   m_SourcePrefab: {fileID: 100100000, guid: 2f5398c90a643d04aba2ec733cd6025e, type: 3}
+--- !u!1 &3587071413765782283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3463260876823686651, guid: 2f5398c90a643d04aba2ec733cd6025e, type: 3}
+  m_PrefabInstance: {fileID: 3587071413765782282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3587071413765782284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3587071413765782283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7a136637bf33f84aae8fed7525aaaa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JumpScareInteract
+  jumpImage: {fileID: 1781465014}
+  showTime: 1
 --- !u!1001 &3942455914568212309
 PrefabInstance:
   m_ObjectHideFlags: 0
