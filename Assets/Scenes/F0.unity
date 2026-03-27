@@ -4236,7 +4236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemImage: {fileID: 1493758749}
-  keySprite: {fileID: 21300000, guid: 02d5e0cd9caefb94ea626cf137a730d2, type: 3}
+  keySprite: {fileID: -2547303277144461524, guid: 2213dabf24c957041954ee86c949c11f, type: 3}
 --- !u!114 &353666473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8823,9 +8823,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f37a08620b177c2429f7ae3e4545f76d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
-  doorID: 
-  requiredItemID: 
-  sceneToLoad: 
+  doorID: 1
+  requiredItemID: Key
+  sceneToLoad: End
   openDistance: 1.5
   isOpen: 0
 --- !u!4 &1438868969 stripped
@@ -9232,11 +9232,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 79.59352
+      value: 89.09
       objectReference: {fileID: 0}
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.27
+      value: -0.87
       objectReference: {fileID: 0}
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10743,11 +10743,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.68472
+      value: 105.16
       objectReference: {fileID: 0}
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.83844
+      value: -0.26
       objectReference: {fileID: 0}
     - target: {fileID: 2922176775321462190, guid: c33a20a1141d8d34cac9f1e573f4bf92, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26820,11 +26820,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7652527554369850862, guid: c24bb0f7913c5084594a655f659243d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 122.18
+      value: 122.27
       objectReference: {fileID: 0}
     - target: {fileID: 7652527554369850862, guid: c24bb0f7913c5084594a655f659243d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.83
+      value: -1.82
       objectReference: {fileID: 0}
     - target: {fileID: 7652527554369850862, guid: c24bb0f7913c5084594a655f659243d5, type: 3}
       propertyPath: m_LocalPosition.z
