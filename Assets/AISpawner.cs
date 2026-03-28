@@ -1,5 +1,6 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Video;
 
 public class AISpawner : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class AISpawner : MonoBehaviour
     public Transform leftSpawnPoint;
     public Transform rightSpawnPoint;
     public AISpawner spawner;
+    public VideoPlayer videoPlayer;
+    public GameObject videoUI;
     public float cooldown = 7f;
 
     private bool hasSpawned = false;
