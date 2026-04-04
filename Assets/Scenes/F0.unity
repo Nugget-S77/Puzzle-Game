@@ -4276,6 +4276,8 @@ MonoBehaviour:
   leftSpawnPoint: {fileID: 585006675}
   rightSpawnPoint: {fileID: 959278869}
   spawner: {fileID: 353666470}
+  videoPlayer: {fileID: 0}
+  videoUI: {fileID: 0}
   cooldown: 7
 --- !u!4 &353666471
 Transform:
@@ -26968,7 +26970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7652527554369850862, guid: c24bb0f7913c5084594a655f659243d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.82
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 7652527554369850862, guid: c24bb0f7913c5084594a655f659243d5, type: 3}
       propertyPath: m_LocalPosition.z
