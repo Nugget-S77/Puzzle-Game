@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 299723688515778868}
   - component: {fileID: 2880303816072397931}
   - component: {fileID: 2648943217667244792}
+  - component: {fileID: 2890411948076238520}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Undefined
@@ -85,7 +86,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -5748425447545855489, guid: 43679192bde056a42a62651ec25d854b, type: 3}
+  m_Sprite: {fileID: -9184412343640288376, guid: 568596ed8ededfc468a951e40c59f549, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -201,6 +202,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyProximitySound
   detectDistance: 3
   audioSource: {fileID: 4813422405213164327}
+--- !u!95 &2890411948076238520
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3577973361101070984}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da6dfe95a1b8fa5468d3447b33a2558a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5167793479163676810
 GameObject:
   m_ObjectHideFlags: 0
